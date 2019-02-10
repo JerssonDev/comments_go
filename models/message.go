@@ -1,6 +1,6 @@
 package models
 
-// Message ...
+// Message ...mensaje para el cliente de la API
 type Message struct {
 	Message string `json:"message"`
 	Code    uint   `json:"code"`

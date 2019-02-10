@@ -4,7 +4,7 @@ import (
 	"github.com/jinzhu/gorm"
 )
 
-// Vote ...
+// Vote ... votos realizados por comentario
 type Vote struct {
 	gorm.Model
 	CommentID uint `json:"commentID" gorm:"not null"`
