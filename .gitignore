@@ -4,6 +4,8 @@
 
 ### Go ###
 # Binaries for programs and plugins
+commentsGo
+commentsGo.exe
 *.exe
 *.exe~
 *.dll
