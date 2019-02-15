@@ -13,6 +13,8 @@ func InitRoutes() *mux.Router {
 	SetLoginRouter(router)
 	SetCommentRouter(router)
 	SetVoteRouter(router)
+	SetRealTimeRouter(router)
+	SetPublicRouter(router)
 
 	return router
 }
